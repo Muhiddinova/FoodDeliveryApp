@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import uz.gita.core.Test
 import uz.gita.fooddeliveryapp.ui.theme.FoodDeliveryAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,6 +28,8 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        val test = Test()
     }
 }
 
@@ -45,3 +48,4 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
