@@ -58,3 +58,10 @@ This architecture helps to keep the project modular, maintainable and easy to te
 ---
 
 ## 📂 **Project Structure**
+
+app
+│
+├── presentation → UI layer (Screens, ViewModels)
+├── domain → Business logic
+├── data → API + Repository implementation
+└── di → Dependency Injection modules
